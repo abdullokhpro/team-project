@@ -1,0 +1,12 @@
+@mixin global-btn {
+  padding: 20px 68px 20px 32px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 17px;
+  color: $secondaryCl;
+  border: none;
+  transition: 0.4s;
+  background-color: $btnBg;
+  background: url(../../images/global-shape.svg) top left,
+    url(../../images/global-right-shape.png) calc(top 50%) right;
+}
